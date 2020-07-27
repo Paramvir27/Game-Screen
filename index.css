@@ -1,0 +1,122 @@
+h1
+{
+    font-size: 25px;
+}
+
+.bcg
+{
+    background: #161616;
+    background: linear-gradient(#111,#222);
+    background-size: 10px 10px;
+}
+
+nav ul li
+{
+    color:white;
+    font-size:17px;
+    border-radius: 50px;    
+}
+
+nav a
+{
+    transition: all 0.2s linear;
+    
+}
+nav a:hover
+{
+    text-decoration: none;
+}
+
+.active
+{
+    border-radius: 20px;
+    background: #111;
+    box-shadow:  inset 13px 13px 26px #111111, 
+                 inset -13px -13px 20px #202020;
+}
+
+nav span
+{
+    font-size: 30px !important;
+}
+
+
+.active span
+{
+    color:limegreen;
+    text-shadow: 0px 0px 3px limegreen;
+}
+
+nav a
+{
+    border-radius: 20px;
+    background: #161616;
+    box-shadow:  13px 13px 26px #111, 
+                 -9px -9px 26px #202020;
+}
+
+.shop:hover span
+{
+    color:orange;
+}
+
+.login:hover span
+{
+    color:lightskyblue;
+}
+
+.box
+{
+    height: 70vh;
+    border-radius: 20px;
+    background: #161616;
+    box-shadow: inset 13px 13px 26px #111, 
+                 inset -13px -13px 20px #202020;
+}
+
+.innerbox
+{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.main
+{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.play
+{
+    
+   border-radius:30px;
+   border:0px;
+   background: #222;
+   transform: scale(1.0);
+   transition: transform 0.1s linear;
+
+}
+button:focus
+{
+    outline: none;
+}
+
+.play:hover
+{
+    transform: scale(1.1);
+}
+
+.big
+{
+    font-size: 50px !important;
+    color: limegreen;
+    text-shadow: 0px 0px 2px lime;
+}
+
+.ar
+{
+    cursor: pointer;
+}
